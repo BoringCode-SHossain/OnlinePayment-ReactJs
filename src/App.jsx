@@ -5,6 +5,7 @@ import HowItWorks from './HowItWorks';
 import Aboutus from "./components/Aboutus";
 import Services from "./components/Services"
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Aboutus />
     <Services />
     <Contact />
+    <Footer />
     </>
   ); 
 };
